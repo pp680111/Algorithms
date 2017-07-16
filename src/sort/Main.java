@@ -6,7 +6,7 @@ package sort;
 public class Main {
     public static void main(String[] args){
         Item[] items = {new Item(4),new Item(6),new Item(1),new Item(3),new Item(2),new Item(9),new Item(12)};
-        QuickSort.quickSort(items);
+        MergeSort.mergeSort(items);
         for(Item i : items){
             System.out.println(i.getElement() + " ");
         }
